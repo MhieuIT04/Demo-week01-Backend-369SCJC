@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "ABV6qrqyVpQ8Wq+jXQJA03QFEm21JrcV2vOlfFgOW5g=",
-  "Source": "HelloWorld",
-  "BasePath": "_content/HelloWorld",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"62OVlnCf4/ZzsLgOZWj30FwuM/axPPHdMu3YvOOBUyQ=","Source":"HelloWorld","BasePath":"_content/HelloWorld","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

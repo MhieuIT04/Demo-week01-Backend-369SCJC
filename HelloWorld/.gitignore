@@ -1,0 +1,23 @@
+ # Visual Studio
+        .vs/
+        *.suo
+        *.user
+        *.sln.docstates
+
+        # Build results
+        [Bb]in/
+        [Oo]bj/
+
+        # User-specific files
+        appsettings.Development.json # Visual Studio
+        .vs/
+        *.suo
+        *.user
+        *.sln.docstates
+
+        # Build results
+        [Bb]in/
+        [Oo]bj/
+
+        # User-specific files
+        appsettings.Development.json
