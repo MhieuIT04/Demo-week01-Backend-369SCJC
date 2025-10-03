@@ -1,4 +1,4 @@
-# Demo-week01-Backend-369SCJC
+# Demo-week01-Backend
 Demo kiến thức và tìm hiểu tuần 1 các kiến thức Backend 
 - Ngày 01: kiến thức tìm hiểu
 + Cài đặt thành công .NET core 8, Postman
