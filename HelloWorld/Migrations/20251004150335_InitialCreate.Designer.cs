@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HelloWorld.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20251003055125_InitialCreate")]
+    [Migration("20251004150335_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -41,6 +41,23 @@ namespace HelloWorld.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Menus");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Thời sự"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Thể thao"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Giải trí"
+                        });
                 });
 
             modelBuilder.Entity("HelloWorld.Models.News", b =>
@@ -71,6 +88,32 @@ namespace HelloWorld.Migrations
                     b.HasIndex("MenuId");
 
                     b.ToTable("News");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Content = "Nội dung chi tiết về cơn bão số 5...",
+                            CreatedDate = new DateTime(2023, 10, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            MenuId = 1,
+                            Title = "Bão số 5 sắp vào biển Đông"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Content = "CLB A thắng CLB B với tỷ số 2-1...",
+                            CreatedDate = new DateTime(2023, 10, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            MenuId = 2,
+                            Title = "Kết quả vòng 10 V-League"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Content = "MV mới của ca sĩ X đạt triệu view...",
+                            CreatedDate = new DateTime(2023, 10, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            MenuId = 3,
+                            Title = "Ca sĩ X ra mắt MV mới"
+                        });
                 });
 
             modelBuilder.Entity("HelloWorld.Models.News", b =>

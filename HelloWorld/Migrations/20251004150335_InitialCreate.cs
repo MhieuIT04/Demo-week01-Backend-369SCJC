@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace HelloWorld.Migrations
 {
     /// <inheritdoc />
@@ -44,6 +46,26 @@ namespace HelloWorld.Migrations
                         principalTable: "Menus",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.InsertData(
+                table: "Menus",
+                columns: new[] { "Id", "Name" },
+                values: new object[,]
+                {
+                    { 1, "Thời sự" },
+                    { 2, "Thể thao" },
+                    { 3, "Giải trí" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "News",
+                columns: new[] { "Id", "Content", "CreatedDate", "MenuId", "Title" },
+                values: new object[,]
+                {
+                    { 1, "Nội dung chi tiết về cơn bão số 5...", new DateTime(2023, 10, 27, 0, 0, 0, 0, DateTimeKind.Unspecified), 1, "Bão số 5 sắp vào biển Đông" },
+                    { 2, "CLB A thắng CLB B với tỷ số 2-1...", new DateTime(2023, 10, 27, 0, 0, 0, 0, DateTimeKind.Unspecified), 2, "Kết quả vòng 10 V-League" },
+                    { 3, "MV mới của ca sĩ X đạt triệu view...", new DateTime(2023, 10, 27, 0, 0, 0, 0, DateTimeKind.Unspecified), 3, "Ca sĩ X ra mắt MV mới" }
                 });
 
             migrationBuilder.CreateIndex(

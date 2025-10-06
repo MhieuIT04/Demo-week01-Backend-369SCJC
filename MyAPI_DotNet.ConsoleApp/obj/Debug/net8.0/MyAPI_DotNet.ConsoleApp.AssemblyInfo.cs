@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyAPI_DotNet.ConsoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2f9d34c9c992bcc92a0ff66f420bd2cb7738c77")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ea5677eda116e33dd9f28306d704971f5321019")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyAPI_DotNet.ConsoleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyAPI_DotNet.ConsoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

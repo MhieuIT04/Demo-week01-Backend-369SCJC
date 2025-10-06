@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using HelloWorld.Data; // Thay bằng namespace của bạn
-using HelloWorld.Models; // Thay bằng namespace của bạn
+using HelloWorld.Data; 
+using HelloWorld.Models; 
 
-// Chuỗi kết nối y hệt như trong appsettings.json của project API
+// Chuỗi kết nối 
 var connectionString = "Server=DESKTOP-K7TIP51\\MSSQLSERVER_01;Database=MiniProjectDb;Trusted_Connection=True;TrustServerCertificate=True";
 
 // Cấu hình để DbContext biết cách kết nối CSDL
