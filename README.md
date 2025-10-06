@@ -15,12 +15,12 @@ Demo kiến thức và tìm hiểu tuần 1 các kiến thức Backend
 **- Ngày 03: Học cách dùng LINQ để truy vấn dữ liệu từ database thông qua EF Core một cách hiệu quả**
 *   giải thích chức năng của `Where`, `Select`, `FirstOrDefault`, `ToList`, và `Include`.
 *   viết các câu lệnh LINQ đơn giản để truy vấn dữ liệu từ 2 bảng có quan hệ 1-n.
-
-**- Ngày 04 & 05: Xây dựng API CRUD **
+  
+**- Ngày 04 & 05: Xây dựng API CRUD**
 - Tạo và xây dựng được bộ API CRUD(Create, Read, Update, Delete) hoàn chỉnh cho 2 đối dượng Menu và new
 - Sử dụng swagger để kiểm tra tất cả các chức nănng  từ tạo, sửa, xóa dữ liệu
 
-- Ngày 06: Clean Archiecture
+**- Ngày 06: Clean Archiecture**
 - Tách từ Solution ban đầu thành 3 project ('Domain', 'Application', 'Presentation') với các dependency được thiết lập
 - Code Logic nghiệp vụ đã được chuyển từ 'Controller' sang 'MenuService'
 - Ứng dụng được chia ra 3 phần và được phân nhiệm vụ cho mỗi phần, giảm gánh nặng công việc cho Controller cũ
