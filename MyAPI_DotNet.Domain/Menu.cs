@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace HelloWorld.Models // Nhớ thay YourProjectName
+namespace MyAPI_DotNet.Domain.Entities // Nhớ thay YourProjectName
 {
     public class Menu
     {

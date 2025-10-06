@@ -1,10 +1,11 @@
-﻿using HelloWorld.Models;
+﻿using MyAPI_DotNet.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using MyAPI_DotNet.Application.Interfaces;
 
 
 namespace HelloWorld.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : DbContext, IApplicationDbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {

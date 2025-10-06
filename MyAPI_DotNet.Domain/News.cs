@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace HelloWorld.Models // Nhớ thay YourProjectName
+namespace MyAPI_DotNet.Domain.Entities 
 {
     public class News
     {

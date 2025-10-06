@@ -1707,6 +1707,30 @@
             "rid": "win"
           }
         }
+      },
+      "MyAPI_DotNet.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.9",
+          "MyAPI_DotNet.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyAPI_DotNet.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyAPI_DotNet.Application.dll": {}
+        }
+      },
+      "MyAPI_DotNet.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/MyAPI_DotNet.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyAPI_DotNet.Domain.dll": {}
+        }
       }
     }
   },
@@ -5181,13 +5205,25 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "MyAPI_DotNet.Application/1.0.0": {
+      "type": "project",
+      "path": "../MyAPI_DotNet.Application/MyAPI_DotNet.Application.csproj",
+      "msbuildProject": "../MyAPI_DotNet.Application/MyAPI_DotNet.Application.csproj"
+    },
+    "MyAPI_DotNet.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MyAPI_DotNet.Domain/MyAPI_DotNet.Domain.csproj",
+      "msbuildProject": "../MyAPI_DotNet.Domain/MyAPI_DotNet.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.OpenApi >= 8.0.20",
+      "Microsoft.EntityFrameworkCore >= 9.0.9",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.9",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.9",
+      "MyAPI_DotNet.Application >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -5222,7 +5258,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\MyAPI_DotNet\\MyAPI_DotNet.Application\\MyAPI_DotNet.Application.csproj": {
+              "projectPath": "D:\\MyAPI_DotNet\\MyAPI_DotNet.Application\\MyAPI_DotNet.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5244,6 +5284,10 @@
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[8.0.20, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[9.0.9, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",

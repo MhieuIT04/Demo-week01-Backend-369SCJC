@@ -1,5 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using HelloWorld.Data; // Nhớ thay YourProjectName
+﻿using HelloWorld.Data; // Nhớ thay YourProjectName
+using Microsoft.EntityFrameworkCore;
+using MyAPI_DotNet.Application.Interfaces; 
+using MyAPI_DotNet.Application.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddControllers();
+builder.Services.AddScoped<IApplicationDbContext>(provider => provider.GetRequiredService<ApplicationDbContext>());
+builder.Services.AddScoped<IMenuService, MenuService>();
+
 
 var app = builder.Build();
 

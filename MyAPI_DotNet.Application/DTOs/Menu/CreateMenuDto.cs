@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-namespace HelloWorld.DTOs.Menu
+namespace MyAPI_DotNet.Application.DTOs.Menu
 {
     public class CreateMenuDto
     {

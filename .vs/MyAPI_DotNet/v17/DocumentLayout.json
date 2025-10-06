@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "D:\\MyAPI_DotNet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9786644C-E4D8-4EED-AE82-A69F8F642642}|HelloWorld\\HelloWorld.csproj|d:\\myapi_dotnet\\helloworld\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9786644C-E4D8-4EED-AE82-A69F8F642642}|HelloWorld\\HelloWorld.csproj|solutionrelative:helloworld\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F160C9A7-A066-4999-96CF-9B8A81F1DB0C}|MyAPI_DotNet.Application\\MyAPI_DotNet.Application.csproj|d:\\myapi_dotnet\\myapi_dotnet.application\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F160C9A7-A066-4999-96CF-9B8A81F1DB0C}|MyAPI_DotNet.Application\\MyAPI_DotNet.Application.csproj|solutionrelative:myapi_dotnet.application\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F160C9A7-A066-4999-96CF-9B8A81F1DB0C}|MyAPI_DotNet.Application\\MyAPI_DotNet.Application.csproj|d:\\myapi_dotnet\\myapi_dotnet.application\\dtos\\menu\\updatemenudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F160C9A7-A066-4999-96CF-9B8A81F1DB0C}|MyAPI_DotNet.Application\\MyAPI_DotNet.Application.csproj|solutionrelative:myapi_dotnet.application\\dtos\\menu\\updatemenudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F160C9A7-A066-4999-96CF-9B8A81F1DB0C}|MyAPI_DotNet.Application\\MyAPI_DotNet.Application.csproj|d:\\myapi_dotnet\\myapi_dotnet.application\\dtos\\menu\\createmenudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F160C9A7-A066-4999-96CF-9B8A81F1DB0C}|MyAPI_DotNet.Application\\MyAPI_DotNet.Application.csproj|solutionrelative:myapi_dotnet.application\\dtos\\menu\\createmenudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F160C9A7-A066-4999-96CF-9B8A81F1DB0C}|MyAPI_DotNet.Application\\MyAPI_DotNet.Application.csproj|d:\\myapi_dotnet\\myapi_dotnet.application\\interfaces\\imenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F160C9A7-A066-4999-96CF-9B8A81F1DB0C}|MyAPI_DotNet.Application\\MyAPI_DotNet.Application.csproj|solutionrelative:myapi_dotnet.application\\interfaces\\imenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F160C9A7-A066-4999-96CF-9B8A81F1DB0C}|MyAPI_DotNet.Application\\MyAPI_DotNet.Application.csproj|d:\\myapi_dotnet\\myapi_dotnet.application\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F160C9A7-A066-4999-96CF-9B8A81F1DB0C}|MyAPI_DotNet.Application\\MyAPI_DotNet.Application.csproj|solutionrelative:myapi_dotnet.application\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9786644C-E4D8-4EED-AE82-A69F8F642642}|HelloWorld\\HelloWorld.csproj|d:\\myapi_dotnet\\helloworld\\controllers\\menuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9786644C-E4D8-4EED-AE82-A69F8F642642}|HelloWorld\\HelloWorld.csproj|solutionrelative:helloworld\\controllers\\menuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9786644C-E4D8-4EED-AE82-A69F8F642642}|HelloWorld\\HelloWorld.csproj|d:\\myapi_dotnet\\helloworld\\dtos\\new\\createnewsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9786644C-E4D8-4EED-AE82-A69F8F642642}|HelloWorld\\HelloWorld.csproj|solutionrelative:helloworld\\dtos\\new\\createnewsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9786644C-E4D8-4EED-AE82-A69F8F642642}|HelloWorld\\HelloWorld.csproj|d:\\myapi_dotnet\\helloworld\\dtos\\new\\updatenewsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9786644C-E4D8-4EED-AE82-A69F8F642642}|HelloWorld\\HelloWorld.csproj|solutionrelative:helloworld\\dtos\\new\\updatenewsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9786644C-E4D8-4EED-AE82-A69F8F642642}|HelloWorld\\HelloWorld.csproj|d:\\myapi_dotnet\\helloworld\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9786644C-E4D8-4EED-AE82-A69F8F642642}|HelloWorld\\HelloWorld.csproj|solutionrelative:helloworld\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UpdateNewsDto.cs",
-              "DocumentMoniker": "D:\\MyAPI_DotNet\\HelloWorld\\DTOs\\New\\UpdateNewsDto.cs",
-              "RelativeDocumentMoniker": "HelloWorld\\DTOs\\New\\UpdateNewsDto.cs",
-              "ToolTip": "D:\\MyAPI_DotNet\\HelloWorld\\DTOs\\New\\UpdateNewsDto.cs",
-              "RelativeToolTip": "HelloWorld\\DTOs\\New\\UpdateNewsDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T03:09:26.982Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateNewsDto.cs",
-              "DocumentMoniker": "D:\\MyAPI_DotNet\\HelloWorld\\DTOs\\New\\CreateNewsDto.cs",
-              "RelativeDocumentMoniker": "HelloWorld\\DTOs\\New\\CreateNewsDto.cs",
-              "ToolTip": "D:\\MyAPI_DotNet\\HelloWorld\\DTOs\\New\\CreateNewsDto.cs",
-              "RelativeToolTip": "HelloWorld\\DTOs\\New\\CreateNewsDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T03:08:37.978Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "D:\\MyAPI_DotNet\\HelloWorld\\Models\\Menu.cs",
-              "RelativeDocumentMoniker": "HelloWorld\\Models\\Menu.cs",
-              "ToolTip": "D:\\MyAPI_DotNet\\HelloWorld\\Models\\Menu.cs",
-              "RelativeToolTip": "HelloWorld\\Models\\Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T03:08:19.085Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NewsController.cs",
-              "DocumentMoniker": "D:\\MyAPI_DotNet\\HelloWorld\\Controllers\\NewsController.cs",
-              "RelativeDocumentMoniker": "HelloWorld\\Controllers\\NewsController.cs",
-              "ToolTip": "D:\\MyAPI_DotNet\\HelloWorld\\Controllers\\NewsController.cs",
-              "RelativeToolTip": "HelloWorld\\Controllers\\NewsController.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAIwGAAAAA7AAAAAAAAAA==",
+              "Title": "MenuService.cs",
+              "DocumentMoniker": "D:\\MyAPI_DotNet\\MyAPI_DotNet.Application\\Services\\MenuService.cs",
+              "RelativeDocumentMoniker": "MyAPI_DotNet.Application\\Services\\MenuService.cs",
+              "ToolTip": "D:\\MyAPI_DotNet\\MyAPI_DotNet.Application\\Services\\MenuService.cs",
+              "RelativeToolTip": "MyAPI_DotNet.Application\\Services\\MenuService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T03:00:54.758Z",
+              "WhenOpened": "2025-10-06T08:34:36.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UpdateMenuDto.cs",
+              "DocumentMoniker": "D:\\MyAPI_DotNet\\MyAPI_DotNet.Application\\DTOs\\Menu\\UpdateMenuDto.cs",
+              "RelativeDocumentMoniker": "MyAPI_DotNet.Application\\DTOs\\Menu\\UpdateMenuDto.cs",
+              "ToolTip": "D:\\MyAPI_DotNet\\MyAPI_DotNet.Application\\DTOs\\Menu\\UpdateMenuDto.cs",
+              "RelativeToolTip": "MyAPI_DotNet.Application\\DTOs\\Menu\\UpdateMenuDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T08:34:21.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateMenuDto.cs",
+              "DocumentMoniker": "D:\\MyAPI_DotNet\\MyAPI_DotNet.Application\\DTOs\\Menu\\CreateMenuDto.cs",
+              "RelativeDocumentMoniker": "MyAPI_DotNet.Application\\DTOs\\Menu\\CreateMenuDto.cs",
+              "ToolTip": "D:\\MyAPI_DotNet\\MyAPI_DotNet.Application\\DTOs\\Menu\\CreateMenuDto.cs",
+              "RelativeToolTip": "MyAPI_DotNet.Application\\DTOs\\Menu\\CreateMenuDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T08:34:20.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MenusController.cs",
               "DocumentMoniker": "D:\\MyAPI_DotNet\\HelloWorld\\Controllers\\MenusController.cs",
               "RelativeDocumentMoniker": "HelloWorld\\Controllers\\MenusController.cs",
               "ToolTip": "D:\\MyAPI_DotNet\\HelloWorld\\Controllers\\MenusController.cs",
               "RelativeToolTip": "HelloWorld\\Controllers\\MenusController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAowB0AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T13:40:14.459Z"
+              "WhenOpened": "2025-10-06T08:27:41.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMenuService.cs",
+              "DocumentMoniker": "D:\\MyAPI_DotNet\\MyAPI_DotNet.Application\\Interfaces\\IMenuService.cs",
+              "RelativeDocumentMoniker": "MyAPI_DotNet.Application\\Interfaces\\IMenuService.cs",
+              "ToolTip": "D:\\MyAPI_DotNet\\MyAPI_DotNet.Application\\Interfaces\\IMenuService.cs",
+              "RelativeToolTip": "MyAPI_DotNet.Application\\Interfaces\\IMenuService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T08:26:58.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\MyAPI_DotNet\\MyAPI_DotNet.Application\\Interfaces\\IApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MyAPI_DotNet.Application\\Interfaces\\IApplicationDbContext.cs",
+              "ToolTip": "D:\\MyAPI_DotNet\\MyAPI_DotNet.Application\\Interfaces\\IApplicationDbContext.cs",
+              "RelativeToolTip": "MyAPI_DotNet.Application\\Interfaces\\IApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T08:07:46.14Z",
+              "EditorCaption": ""
             }
           ]
         }
