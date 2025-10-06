@@ -20,3 +20,8 @@ Demo kiến thức và tìm hiểu tuần 1 các kiến thức Backend
 - Tạo và xây dựng được bộ API CRUD(Create, Read, Update, Delete) hoàn chỉnh cho 2 đối dượng Menu và new
 - Sử dụng swagger để kiểm tra tất cả các chức nănng  từ tạo, sửa, xóa dữ liệu
 
+- Ngày 06: Clean Archiecture
+- Tách từ Solution ban đầu thành 3 project ('Domain', 'Application', 'Presentation') với các dependency được thiết lập
+- Code Logic nghiệp vụ đã được chuyển từ 'Controller' sang 'MenuService'
+- Ứng dụng được chia ra 3 phần và được phân nhiệm vụ cho mỗi phần, giảm gánh nặng công việc cho Controller cũ
+
