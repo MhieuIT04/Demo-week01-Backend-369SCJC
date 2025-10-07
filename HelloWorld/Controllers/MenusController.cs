@@ -1,88 +1,85 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using MyAPI_DotNet.Application.DTOs.Menu;
-using MyAPI_DotNet.Application.Interfaces;
-using MyAPI_DotNet.Domain.Entities; 
+﻿using MediatR;
+using Microsoft.AspNetCore.Mvc;
+using MyAPI_DotNet.Application.Features.Menus.Commands.CreateMenu;
+using MyAPI_DotNet.Application.Features.Menus.Commands.DeleteMenu;
+using MyAPI_DotNet.Application.Features.Menus.Commands.UpdateMenu;
+using MyAPI_DotNet.Application.Features.Menus.Queries.GetAllMenus;
+using MyAPI_DotNet.Application.Features.Menus.Queries.GetMenuById;
+using MyAPI_DotNet.Domain.Entities;
 
-namespace HelloWorld.Controllers 
+namespace MyAPI_DotNet.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class MenusController : ControllerBase
     {
-        // Controller chỉ phụ thuộc vào Interface của tầng Application
-        private readonly IMenuService _menuService;
+        private readonly IMediator _mediator;
 
-        public MenusController(IMenuService menuService)
+        public MenusController(IMediator mediator)
         {
-            _menuService = menuService;
+            _mediator = mediator;
         }
 
         // GET: api/menus
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Menu>>> GetMenus()
+        public async Task<IActionResult> GetAllMenus()
         {
-            var menus = await _menuService.GetAllMenusAsync();
-            return Ok(menus);
+            var query = new GetAllMenusQuery();
+            var result = await _mediator.Send(query);
+            return Ok(result);
         }
 
         // GET: api/menus/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Menu>> GetMenu(int id)
+        public async Task<IActionResult> GetMenuById(int id)
         {
-            // Chỉ gọi service, không chứa logic
-            var menu = await _menuService.GetMenuByIdAsync(id);
-
-            if (menu == null)
-            {
-                return NotFound(); // Việc trả về HTTP Status Code là trách nhiệm của Controller
-            }
-
-            return Ok(menu);
+            var query = new GetMenuByIdQuery { Id = id };
+            var result = await _mediator.Send(query);
+            return result != null ? Ok(result) : NotFound();
         }
 
         // POST: api/menus
         [HttpPost]
-        public async Task<ActionResult<Menu>> CreateMenu([FromBody] CreateMenuDto createMenuDto)
+        public async Task<IActionResult> CreateMenu([FromBody] CreateMenuCommand command)
         {
-            // Chỉ gọi service, không chứa logic
-            var newMenu = await _menuService.CreateMenuAsync(createMenuDto);
-
-            // Trả về response theo chuẩn RESTful
-            return CreatedAtAction(nameof(GetMenu), new { id = newMenu.Id }, newMenu);
+            var result = await _mediator.Send(command);
+            return CreatedAtAction(nameof(GetMenuById), new { id = result.Id }, result);
         }
 
         // PUT: api/menus/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateMenu(int id, [FromBody] UpdateMenuDto updateMenuDto)
+        public async Task<IActionResult> UpdateMenu(int id, [FromBody] UpdateMenuCommand command)
         {
-            try
+            if (id != command.Id)
             {
-                // Chỉ gọi service, không chứa logic
-                await _menuService.UpdateMenuAsync(id, updateMenuDto);
-            }
-            catch (KeyNotFoundException) // Bắt lỗi cụ thể do service ném ra
-            {
-                return NotFound();
+                return BadRequest();
             }
 
-            return NoContent(); // Trả về 204 No Content khi thành công
+            try
+            {
+                await _mediator.Send(command);
+                return NoContent();
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
         }
 
         // DELETE: api/menus/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteMenu(int id)
         {
+            var command = new DeleteMenuCommand { Id = id };
             try
             {
-                // Chỉ gọi service, không chứa logic
-                await _menuService.DeleteMenuAsync(id);
+                await _mediator.Send(command);
+                return NoContent();
             }
-            catch (KeyNotFoundException) // Bắt lỗi cụ thể do service ném ra
+            catch (KeyNotFoundException ex)
             {
-                return NotFound();
+                return NotFound(ex.Message);
             }
-
-            return NoContent();
         }
     }
 }

@@ -1,0 +1,16 @@
+D:\MyAPI_DotNet\MyAPI_DotNet.Application\bin\Debug\net8.0\MyAPI_DotNet.Application.deps.json
+D:\MyAPI_DotNet\MyAPI_DotNet.Application\bin\Debug\net8.0\MyAPI_DotNet.Application.dll
+D:\MyAPI_DotNet\MyAPI_DotNet.Application\bin\Debug\net8.0\MyAPI_DotNet.Application.pdb
+D:\MyAPI_DotNet\MyAPI_DotNet.Application\bin\Debug\net8.0\MyAPI_DotNet.Domain.dll
+D:\MyAPI_DotNet\MyAPI_DotNet.Application\bin\Debug\net8.0\MyAPI_DotNet.Domain.pdb
+D:\MyAPI_DotNet\MyAPI_DotNet.Application\obj\Debug\net8.0\MyAPI_DotNet.Application.csproj.AssemblyReference.cache
+D:\MyAPI_DotNet\MyAPI_DotNet.Application\obj\Debug\net8.0\MyAPI_DotNet.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyAPI_DotNet\MyAPI_DotNet.Application\obj\Debug\net8.0\MyAPI_DotNet.Application.AssemblyInfoInputs.cache
+D:\MyAPI_DotNet\MyAPI_DotNet.Application\obj\Debug\net8.0\MyAPI_DotNet.Application.AssemblyInfo.cs
+D:\MyAPI_DotNet\MyAPI_DotNet.Application\obj\Debug\net8.0\MyAPI_DotNet.Application.csproj.CoreCompileInputs.cache
+D:\MyAPI_DotNet\MyAPI_DotNet.Application\obj\Debug\net8.0\MyAPI_DotNet.Application.sourcelink.json
+D:\MyAPI_DotNet\MyAPI_DotNet.Application\obj\Debug\net8.0\MyAPI_Do.026D73B0.Up2Date
+D:\MyAPI_DotNet\MyAPI_DotNet.Application\obj\Debug\net8.0\MyAPI_DotNet.Application.dll
+D:\MyAPI_DotNet\MyAPI_DotNet.Application\obj\Debug\net8.0\refint\MyAPI_DotNet.Application.dll
+D:\MyAPI_DotNet\MyAPI_DotNet.Application\obj\Debug\net8.0\MyAPI_DotNet.Application.pdb
+D:\MyAPI_DotNet\MyAPI_DotNet.Application\obj\Debug\net8.0\ref\MyAPI_DotNet.Application.dll

@@ -1,0 +1,12 @@
+D:\MyAPI_DotNet\MyAPI_DotNet.Domain\bin\Debug\net8.0\MyAPI_DotNet.Domain.deps.json
+D:\MyAPI_DotNet\MyAPI_DotNet.Domain\bin\Debug\net8.0\MyAPI_DotNet.Domain.dll
+D:\MyAPI_DotNet\MyAPI_DotNet.Domain\bin\Debug\net8.0\MyAPI_DotNet.Domain.pdb
+D:\MyAPI_DotNet\MyAPI_DotNet.Domain\obj\Debug\net8.0\MyAPI_DotNet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyAPI_DotNet\MyAPI_DotNet.Domain\obj\Debug\net8.0\MyAPI_DotNet.Domain.AssemblyInfoInputs.cache
+D:\MyAPI_DotNet\MyAPI_DotNet.Domain\obj\Debug\net8.0\MyAPI_DotNet.Domain.AssemblyInfo.cs
+D:\MyAPI_DotNet\MyAPI_DotNet.Domain\obj\Debug\net8.0\MyAPI_DotNet.Domain.csproj.CoreCompileInputs.cache
+D:\MyAPI_DotNet\MyAPI_DotNet.Domain\obj\Debug\net8.0\MyAPI_DotNet.Domain.sourcelink.json
+D:\MyAPI_DotNet\MyAPI_DotNet.Domain\obj\Debug\net8.0\MyAPI_DotNet.Domain.dll
+D:\MyAPI_DotNet\MyAPI_DotNet.Domain\obj\Debug\net8.0\refint\MyAPI_DotNet.Domain.dll
+D:\MyAPI_DotNet\MyAPI_DotNet.Domain\obj\Debug\net8.0\MyAPI_DotNet.Domain.pdb
+D:\MyAPI_DotNet\MyAPI_DotNet.Domain\obj\Debug\net8.0\ref\MyAPI_DotNet.Domain.dll

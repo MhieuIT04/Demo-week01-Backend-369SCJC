@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using HelloWorld.Data;
-using HelloWorld.Models;
+using MyAPI_DotNet.Domain.Entities;
 using HelloWorld.DTOs.New;
 
 namespace HelloWorld.Controllers
