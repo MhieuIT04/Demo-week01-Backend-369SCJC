@@ -25,6 +25,6 @@ Demo kiến thức và tìm hiểu tuần 1 các kiến thức Backend
 - Code Logic nghiệp vụ đã được chuyển từ 'Controller' sang 'MenuService'
 - Ứng dụng được chia ra 3 phần và được phân nhiệm vụ cho mỗi phần, giảm gánh nặng công việc cho Controller cũ
 
-- Ngày 07: CQRS và thư viện MediatR 
+**- Ngày 07: CQRS và thư viện MediatR**
 - Chia nhỏ trong MenuService tách 2 phần Command(lệnh) và Queries(truy vấn) ra 2 phần riêng biệt
 - Áp dụng thư viện MediatR, MediatR là người trung gian nhận các đối tượng của Controller sau đó tự động tìm ra các handle và MediatR sẽ trả về cho controller
